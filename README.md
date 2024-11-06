@@ -5,22 +5,16 @@
 ```shell
 yarn install
 ```
-#### Set private key in config.js
+#### Set private key in config.js to generate your public key address
 
 ```json
 {
   "privateKey": "PRIVATE_KEY_WIF",
-  "network": "testnet or bitcoin"
 }
 ```
 
-## Print your public key
+## Stake your BTC from your wallet and leveraging our Bitcoin API 
 ```shell
-node public-key.js
-```
-
-## Sign transaction
-```shell
-node sign.js 'transacton in hex'
+node stake.js
 ```
 
